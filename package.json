@@ -2,7 +2,9 @@
     "name": "tech-blog",
     "version": "1.0.0",
     "description": "",
-    "main": "server.js",
+    "engines": {
+    "node": "v14.17.3"
+        "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "seeds": "node seeds/index.js",
