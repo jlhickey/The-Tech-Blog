@@ -3,8 +3,9 @@
     "version": "1.0.0",
     "description": "",
     "engines": {
-        "main": "server.js"
+     
     "scripts": {
+        "main": "server.js"
         "test": "echo \"Error: no test specified\" && exit 1",
         "seeds": "node seeds/index.js",
         "start": "node server.js",
