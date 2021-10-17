@@ -1,12 +1,15 @@
-//Set the routes for the api
+//Define the routes for the homepage, dashboard and APIs
 const router = require('express').Router();
+const apiRoutes = require('./api');
+const homeRoutes = require('./home-routes.js');
+const dashboardRoutes = require('./dashboard-routes.js');
 
-const userRoutes = require('./user-routes');
-const postRoutes = require('./post-routes');
-const commentRoutes = require('./comment-routes');
+router.use('/dashboard', dashboardRoutes);
+router.use('/', homeRoutes);
+router.use('/api', apiRoutes);
 
-router.use('/users', userRoutes);
-router.use('/posts', postRoutes);
-router.use('/comments', commentRoutes);
+router.use((req, res) => {
+  res.status(404).end();
+});
 
 module.exports = router;
