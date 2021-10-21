@@ -8,7 +8,7 @@
         "main": "server.js"
         "test": "echo \"Error: no test specified\" && exit 1",
         "seeds": "node seeds/index.js",
-        "start": "node server.js",
+        "start": "npm start",
         "build": "ng build",
         "heroku-postbuild": "ng build --prod"
     },
@@ -23,7 +23,7 @@
     },
     "homepage": "https://github.com/jlhickey/tech_blog#readme",
     "dependencies": {
-        "@types/node": "14.17.3",
+        "@types/node": "^14.17.3",
         "bcrypt": "^5.0.1",
         "connect-session-sequelize": "^7.1.1",
         "dotenv": "^10.0.0",
