@@ -48,7 +48,7 @@ The apps used to run
 3) run "npm run seeds to seed the database
 4) run "node server.js" 
 
-## Mock Up:  https://drive.google.com/file/d/1Ngwtkt-iJUnHlFxDlmOSuQ0Ye26W7EEO/view
+## Mock Up:  https://watch.screencastify.com/v/9cDacpsokLpYjsIYTi5M
 
  ## Liscence
  # ![GitHub license](https://img.shields.io/badge/license-ISC-blue.svg) 
